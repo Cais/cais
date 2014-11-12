@@ -17,9 +17,6 @@
     </entry>
   </component>
   <component name="ProjectRootManager" version="2" />
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
-    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
-  </component>
   <component name="VagrantProjectSettings">
     <option name="instanceFolder" value="" />
     <option name="provider" value="" />
