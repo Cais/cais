@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="EAC">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wp-content/themes/cais" local="$PROJECT_DIR$" web="/wp-content/themes/cais" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

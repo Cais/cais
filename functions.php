@@ -48,11 +48,12 @@
  *
  * @uses     get_template_directory_uri
  * @uses     wp_enqueue_style
+ * @uses     wp_get_theme
  *
  * @internal hooked to `wp_enqueue_scripts` action
  */
 function cais_styles_and_scripts() {
-	wp_enqueue_style( 'parent-theme-opus-primus', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'parent-theme-opus-primus', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->parent()->get( 'Version' ), 'screen' );
 }
 
 add_action( 'wp_enqueue_scripts', 'cais_styles_and_scripts' );
